@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(root.css);
+
+.body {
+  background-color: var(--color-primary-black);
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 1920px;
+  height: 96px;
+  background-color: var(--color-primary-black);
+  padding: 0px 40px;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.menu-burger {
+  display: none;
+}
