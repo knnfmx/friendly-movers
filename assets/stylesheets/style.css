@@ -103,7 +103,7 @@
   font-size: 25px;
 }
 
-.social-media__wrapper {
+.social-media-list__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,12 +118,8 @@
   background-position: center;
 }
 
-.tiktok {
-  background-image: url(../icons/svg/tiktok.svg);
-}
-
-.youtube {
-  background-image: url(../icons/svg/youtube.svg);
+.facebook {
+  background-image: url(../icons/svg/facebook.svg);
 }
 
 .instagram {

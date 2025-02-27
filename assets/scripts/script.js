@@ -4,7 +4,7 @@ const DAYS = document.querySelector('.days'),
       SECONDS = document.querySelector('.seconds');
 
 const CURRENT_YEAR = new Date().getFullYear();
-const OPEN_DATE = new Date(`January 29 ${CURRENT_YEAR} 10:00:00`);
+const OPEN_DATE = new Date(`March 1 ${CURRENT_YEAR} 12:00:00`);
 
 let timer = () => {
   const CURRENT_TIME = new Date();
